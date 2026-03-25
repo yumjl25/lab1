@@ -6,7 +6,7 @@ int main(){
     double a, b, c;
 
     cout << "Введите стороны треугольника a b c: ";
-    cin >> a >> b >> c;
+    cin >> a >> b >> c;//muhahhaha
 
     if (a + b <= c || a + c <= b || b + c <= a){
         cout << "Ошибка. Треугольника c такими сторонами не существует" << endl;
