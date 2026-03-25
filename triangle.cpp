@@ -16,7 +16,7 @@ int main(){
     double perimeter = a + b + c;
     cout << "Периметр: " << perimeter << endl;
 
-    double p = perimeter / 2;
+    double p = perimeter / 2; //changes
     double area = sqrt(p * (p - a) * (p - b) * (p - c));
     cout << "Площадь: " << area << endl;
 
