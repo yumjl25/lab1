@@ -3,13 +3,14 @@
 using namespace std;
 
 
-double perimeter(double a, double b){return 2.0 * (a + b);}
+double perimeter(double a, double b){return 2.0 * (a + b);} // perimeter
 
 
-double square(double a, double b){return a * b;}
+double square(double a, double b){return a * b;} // square
 
 
-double diag_length(double a, double b){return sqrt((a*a) + (b*b));}
+
+double diag_length(double a, double b){return sqrt((a*a) + (b*b));} // length
 
 
 int main(){
